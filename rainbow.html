@@ -1,0 +1,110 @@
+<!-- <!DOCTYPE html>
+
+<head>
+
+    <title>Document</title>
+
+
+
+<style>
+/*media query is here*/
+
+body{
+@media(max-width : 349px){
+    background-color: black;
+}
+}
+
+
+h1{
+text-shadow: 2px 10px 10px rgba(0,250,0.5);
+text-align: center;
+margin: auto;
+margin-top: 300px;
+}
+@media(min-width: 350px) and (max-width: 700px){
+    
+body{
+
+animation: aniname 2s linear infinite;
+}
+
+
+@keyframes aniname{
+
+0%{background-color: red;
+}
+
+20%{background-color: yellow;
+}
+
+40%{background-color: green;
+}
+
+60%{background-color: violet;
+}
+
+80%{background-color: blue;
+}
+
+100%{background-color: red;
+}
+}
+
+}
+
+</style>
+</head>
+
+
+<body>
+    <h1>HELLO WORLD</h1>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Media query for max-width: 349px */
+        @media(orientation: portrait){
+            body {
+                background-color: black;
+            }
+        }
+
+        /* Styling for h1 */
+        h1 {
+            text-shadow: 2px 10px 10px rgba(0, 250, 0, 0.5);
+            text-align: center;
+            margin: auto;
+            margin-top: 300px;
+        }
+
+        /* Media query for min-width: 350px and max-width: 700px */
+        @media(orientation: landscape){
+            body {
+                animation: aniname 2s linear infinite;
+            }
+
+            @keyframes aniname {
+                0% { background-color: red; }
+                20% { background-color: yellow; }
+                40% { background-color: green; }
+                60% { background-color: violet; }
+                80% { background-color: blue; }
+                100% { background-color: red; }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HELLO WORLD</h1>
+</body>
+</html>
